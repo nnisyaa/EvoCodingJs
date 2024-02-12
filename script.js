@@ -1,5 +1,43 @@
+//1st presentation
+//task 1
+console.log('My name is Nisa');
+//task2
+const name = 'Nisa'
+console.log(name);
+//task3
+let bookPrice = prompt('Enter the price of the book')
+let bookAmount = prompt('Enter the amount of the book')
+console.log(bookAmount * bookPrice);
+
+//2nd presentation
+//task 1
+let num = prompt('Enter a two-digit number')
+let num1 = num**5
+let num2 = num%3
+console.log(num);
+console.log(num1);
+console.log(num2);
+//task2
+let firstName = prompt('Enter you first name')
+let lastName = prompt('Enter you last name')
+console.log('Your name is ' + firstName + ' ' + lastName);
+//task3
+let firstName2 = prompt('Enter you first name')
+let lastName2 = prompt('Enter you last name')
+console.log(`Nice to meet you again,${firstName2} ${lastName2}`);
+//task4
+let fullName = prompt('Enter you full name')
+console.log(fullName.length-1) 
+
+
+
+
+
+
+
+
 // //1
-let fullName = prompt('Enter your full name')
+// let fullName = prompt('Enter your full name')
 // console.log(`Hello ${fullName}`)
 // //2
 // let value1 = prompt('Enter first number')
@@ -20,7 +58,7 @@ let fullName = prompt('Enter your full name')
 
 // //5
 
-let devide = fullName.split(' ')
+// let devide = fullName.split(' ')
 // let firstname = devide[0]
 // let surname = devide[1]
 // console.log(`Hello ${firstname}!`)

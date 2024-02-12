@@ -1,0 +1,26 @@
+/* transition по сути анимация где даем врмя и название элемента или данного */
+/* transform */
+/* cubic-bezier  liner*
+cursor pointer 
+transform scalex or translatex
+transform s hover
+perspective 700px
+*/
+.can{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 100px auto;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 100px auto;
+    transition: 1s  linear;
+    transform: translate3d(0px,0px,0px) ;
+}
+.container:hover{
+    transform: scale3d(0.5 , 0.5 ,0.5) ;
+    /* width: 300px; */
+}
