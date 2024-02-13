@@ -31,7 +31,7 @@ console.log(fullName.length-1)
 
 
 
-
+//1st classwork
 //task1
 let kmhSpeed = 75
 let msSpeed = kmhSpeed*1000/3600
