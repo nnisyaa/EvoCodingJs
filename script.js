@@ -1,5 +1,5 @@
 // //1
-let fullName = prompt('Enter your full name')
+// let fullName = prompt('Enter your full name')
 // console.log(`Hello ${fullName}`)
 // //2
 // let value1 = prompt('Enter first number')
@@ -20,7 +20,7 @@ let fullName = prompt('Enter your full name')
 
 // //5
 
-let devide = fullName.split(' ')
+// let devide = fullName.split(' ')
 // let firstname = devide[0]
 // let surname = devide[1]
 // console.log(`Hello ${firstname}!`)
@@ -39,8 +39,7 @@ let devide = fullName.split(' ')
 // moneyAmount = moneyAmount*87/100
 // console.log(moneyAmount)
 
-//3
-
+// Sahruz m.'s 1st lesson in js
 
 
 
