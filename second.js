@@ -127,6 +127,8 @@
 // }
 // console.log(`${day} ${dote[1]} ${year} года`);
 
+
+
 // //presentation7 functions
 // //task1
 // let Fullname = prompt('Enter your name')
@@ -141,13 +143,47 @@
 // yourName1('Nisa Hasratova')
 // yourName1('Said Hasratli')
 //task3
-function maxNum (num1, num2){
-    if(num1<num2){
-        console.log(num2)
-    }
-    else{
-        console.log(num1);
+// let numbers =prompt('Enter 3 numbers')
+// let enter = numbers.split(' ')
+// let num1 = enter[0]
+// let num2 = enter[1]
+// let num3 = enter[2]
+// function maxNum (num1, num2, num3){
+//     if(num1<num2 && num2<num3){
+//         console.log(num3)
+//     }
+//     else if(num2<num1 && num1<num3){
+//         console.log(num3)
+//     }
+//     else if(num1<num3 && num3<num2){
+//         console.log(num2)
+//     }
+//     else if(num3<num1 && num1<num2){
+//         console.log(num2)
+//     }
+//     else if(num3<num2 && num2<num1){
+//         console.log(num1)
+//     }
+//     else if(num2<num3 && num3<num1){
+//         console.log(num1)
+//     }
+// }
+// maxNum(num1, num2, num3) 
+
+
+
+//presentation8 functions-return
+//task1
+let numbers = prompt('Enter 2 numbers')
+let enter = numbers.split(' ')
+let num1 = enter[0]
+let num2 = enter[1]
+function min(num1, num2){
+    if(Number(num1)<Number(num2)){
+        return num1
+    }else{
+        return num2
     }
 }
-// maxNum(2, 3) //нужно переделать для 3х элементов
-// //task4
+let minNum = min
+console.log(minNum(num1,num2));
