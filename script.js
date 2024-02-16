@@ -52,6 +52,44 @@
 
 
 
-
-
-
+// //second classwork = presentation4
+// //task6
+// let fullName = 'Alan Turning'
+// console.log(fullName[0],fullName[5]);
+// //task7
+// let yourFullName = prompt('Enter your full name - first name,then lastname')
+// let space = yourFullName.split(' ')
+// let name = space[0]
+// let surname = space[1]
+// console.log(surname, name);
+// //task8
+// let yourName = prompt('Enter your name')
+// console.log(`Hello, ${yourName}`);
+// //task9
+// let value1 = prompt('Enter first number')
+// let value2 = prompt('Enter second number')
+// console.log(+value1 + Number(value2))
+// console.log(+value1 - Number(value2))
+// console.log(+value1 * Number(value2))
+// console.log(+value1 / Number(value2))
+// console.log(+value1 % Number(value2))
+// //task10
+// console.log(`${12345*98765}`);
+// console.log(`${12345*98765}`[5]);
+// //task11
+// let devide = yourFullName.split(' ')
+// let firstname = devide[0]
+// console.log(`Hello ${firstname}!`)
+// //task12
+// let price = prompt('Enter a numbe in 530.90 format')
+// let space1 = price.split('.')
+// let man = space1[0]
+// let cent = space1[1]
+// console.log(`${man} manat ${cent} qepik`)
+// //task13
+// let fullName1= prompt('Enter your name is this order: Lastname , Name , Patronymic')
+// let yourName1 = fullName1.split(' ')
+// let name1 =yourName1[1]
+// let surname1 = yourName1[0]
+// let patronymic = yourName1 [2]
+// console.log(surname1 +' '+ name1[0]+ '. ' +  patronymic[0]+ '.')
