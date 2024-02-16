@@ -180,29 +180,6 @@
 //    console.log(`The full balance is ${fullBalance} rubl`); 
 // }
 // changeDollartoRubl(numDollarBalance, numRublBalance)
-//task5
-// let enterNum = prompt('Enter a number')
-// let enteredNum = +enterNum
-// function numberToText(enteredNum){
-//     switch(enteredNum){
-//         case 1:
-//             console.log("One")
-//         break
-//         case 2:
-//             console.log("Two")
-//         break
-//         case 3:
-//             console.log("Three")
-//         break
-//         case 4:
-//             console.log("Four")
-//         break
-//         case 5:
-//             console.log("Five")
-//         break
-//     }
-// }
-// numberToText(enteredNum)
 
 
 
@@ -221,3 +198,70 @@
 // }
 // let minNum = min
 // console.log(minNum(num1,num2));
+//task3
+// function calc(num1,num2,operation){
+//     switch(operation){
+//         case '+':
+//             console.log(num1 + num2);
+//         break;
+//         case '-':
+//             console.log(num1 - num2);
+//         break;
+//         case '*':
+//             console.log(num1 * num2);
+//         break;
+//         case '/':
+//             console.log(num1 / num2);
+//         break;
+//     }
+// }
+// let num1 = Number(prompt('Enter 1st number'))
+// let num2 = Number(prompt('Enter 2nd number'))
+// let operation = prompt('Enter the operation')
+// calc(num1,num2,operation)
+//task4
+// function isLucky(enterNumber){
+//   enterNumber 
+// }
+// let enterNumber = Number(prompt('Enter a number with six positions '))
+// isLucky(enterNumber) НЕ СМОГЛА СДЕЛАТЬ
+
+
+
+//presentation9 function-practice
+//task1
+// function isEven (evenNum){
+//     if(evenNum%2 == 0){
+//         console.log(true)
+//     }
+//     else{
+//         console.log(false);
+//     }
+// }
+// let evenNum = Number(prompt('Enter a number'))
+// isEven(evenNum)
+//task2
+// function fourth(num){
+//     return num**4
+// }
+// let num = Number(prompt('Enter a number'))
+// console.log(fourth(num));
+//task3
+// function isValid(telephoneNumber){
+//     if(telephoneNumber.length == 12 && telephoneNumber[0] == '+' && telephoneNumber[1] == '7'){
+//         console.log(true)
+//     }
+//     else{
+//         console.log(false)
+//     }
+// }
+// let telephoneNumber = prompt('Enter a telephone number')
+// isValid(telephoneNumber)
+
+
+
+//presentation10
+
+
+
+

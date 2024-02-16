@@ -93,3 +93,14 @@
 // let surname1 = yourName1[0]
 // let patronymic = yourName1 [2]
 // console.log(surname1 +' '+ name1[0]+ '. ' +  patronymic[0]+ '.')
+
+
+
+//homework2
+let a = 10
+let b = 5
+let c = b //5
+b = a //10
+a = c //5
+
+console.log(a,b)
