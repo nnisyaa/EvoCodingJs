@@ -122,10 +122,10 @@
 // let whatIsYourGender = gender == 'F' || gender == 'f'?
 // 'Female': 'Male'
 // console.log(whatIsYourGender)
-//task3
-let date = prompt('Enter the date in this format "YYYY.MM.DD"')
-dote = date.split('.')
-let year = dote[0]
-let month = dote[1]
-let day = dote[2]
+// //task3
+// let date = prompt('Enter the date in this format "YYYY.MM.DD"')
+// dote = date.split('.')
+// let year = dote[0]
+// let month = dote[1]
+// let day = dote[2]
 
