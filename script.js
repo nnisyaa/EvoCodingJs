@@ -97,10 +97,69 @@
 
 
 //homework2
-let a = 10
-let b = 5
-let c = b //5
-b = a //10
-a = c //5
+// let a = 10
+// let b = 5
+// let c = b //5
+// b = a //10
+// a = c //5
+// console.log(a,b)
 
-console.log(a,b)
+
+
+//third classwork
+//task1
+// let value = 10
+// console.log(value <= 10);
+// console.log(value === 10);
+// console.log(value != 20);
+// console.log(value == 10);
+// console.log(value < 11);
+
+//homework 3 if
+// let age = prompt('Enter your age')
+// if (age<18){
+//     alert('Access denied');
+// }
+// else{
+//     alert('Access granted');
+// }
+
+
+//classwork 4 if  
+let enter = prompt('Enter 3  two posinitioned numbers devided by comma')
+let devide = enter.split(',')
+let number1 = devide[0]
+let number2 = devide[1]
+let number3 = devide[2]
+if(!isNaN(number1) || !isNaN(number2) || !isNaN(number3)) {
+    if(number1 == number2 || number1 == number3 || number2 == number1){
+        console.log('two or three numbers are the same');
+    }
+    else if(number1 == null || number2 == null || number3 == null){
+        console.log('Please enter all of the numbers');
+    }
+    else if(number1.length !=2 || number2.length != 2 || number3.length !=2){
+        console.log('Entered numbers are not two positinioned');
+    }
+    else if (number1<number2 && number2 < number3){ //123     
+        console.log(number2);
+    }
+    else if (number2<number1 && number1 < number3){ //213   132
+        console.log(number1);
+    }
+    else if (number3<number1 && number1 < number2){ //312     
+        console.log(number1);
+    }
+    else if (number3<number2 && number2 < number1){ //321    
+        console.log(number2);
+    }
+    else if (number1<number3 && number3 < number2){ //132  
+        console.log(number3);
+    }
+    else if (number2<number3 && number3 < number1){ //231 
+        console.log(number3);
+    }
+    else{
+        console.log('Something went wrong');
+    }    
+}
