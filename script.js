@@ -126,35 +126,66 @@
 
 
 //classwork 4 if  
-let enter = prompt('Enter 3  two posinitioned numbers devided by comma')
-let devide = enter.split(',')
-let number1 = devide[0]
-let number2 = devide[1]
-let number3 = devide[2]
-if (!isNaN(number1) && !isNaN(number2) && !isNaN(number3)) {
-    if (number1 == number2 || number1 == number3 || number2 == number1) {
-        console.log('two or three numbers are the same');
-    }
-    else if(devide.length >3){
-        console.log('You should enter only three numbers')
-    }
-     else {
-        if (number1 == null || number2 == null || number3 == null) {
-            console.log('Please enter all of the numbers');
-        }
-        else if (number1.length != 2 || number2.length != 2 || number3.length != 2) {
-            console.log('Entered numbers are not two positinioned');
-        }
-        else if (number2 < number1 && number1 < number3 || number3 < number1 && number1 < number2) { //213   132
-            console.log(number1);
-        }
-        else if (number3 < number2 && number2 < number1 || number1 < number2 && number2 < number3) { //321    
-            console.log(number2);
-        }
-        else if (number1 < number3 && number3 < number2 || number2 < number3 && number3 < number) { //132  
-            console.log(number3);
-        }
-    }
-} else {
-    console.log('Enter a number')
-}
+// let enter = prompt('Enter 3  two posinitioned numbers devided by comma')
+// let devide = enter.split(',')
+// let number1 = devide[0]
+// let number2 = devide[1]
+// let number3 = devide[2]
+// if (!isNaN(number1) && !isNaN(number2) && !isNaN(number3)) {
+//     if (number1 == number2 || number1 == number3 || number2 == number1) {
+//         console.log('two or three numbers are the same');
+//     }
+//     else if(devide.length >3){
+//         console.log('You should enter only three numbers')
+//     }
+//      else {
+//         if (number1 == null || number2 == null || number3 == null) {
+//             console.log('Please enter all of the numbers');
+//         }
+//         else if (number1.length != 2 || number2.length != 2 || number3.length != 2) {
+//             console.log('Entered numbers are not two positinioned');
+//         }
+//         else if (number2 < number1 && number1 < number3 || number3 < number1 && number1 < number2) { //213   132
+//             console.log(number1);
+//         }
+//         else if (number3 < number2 && number2 < number1 || number1 < number2 && number2 < number3) { //321    
+//             console.log(number2);
+//         }
+//         else if (number1 < number3 && number3 < number2 || number2 < number3 && number3 < number) { //132  
+//             console.log(number3);
+//         }
+//     }
+// } else {
+//     console.log('Enter a number')
+// }
+
+
+
+
+//classwork4 swich case
+//task1
+// let id = +prompt('введите id товара:');
+// switch(id){
+//     case 1:
+//         alert('В наличии 10 шт.');
+//         break;
+//     case 2:
+//         alert('В наличии 256 шт.');
+//         break;
+//     case 3:
+//         alert('В наличии 53 шт.');
+//         break;
+//     case 4:  
+//         alert('В наличии 3 шт.');
+//         break;
+//     default:
+//         alert('Нет в наличии');
+// }
+
+//task2 
+// let gender1 = prompt('Enter your gender as F or M')
+// let whatIsYourGender1 = gender1.toLowerCase() == 'f' ? 'Female' :  gender1.toLowerCase() == 'm' ? 'Male' :  'please enter correct letter'
+// console.log(whatIsYourGender1);
+
+
+

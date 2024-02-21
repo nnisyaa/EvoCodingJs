@@ -56,24 +56,6 @@
 
 
 //presentation6 swich case
-// //task1
-// let id = prompt('введите id товара:');
-// switch(id){
-//     case '1':
-//         alert('В наличии 10 шт.');
-//         break;
-//     case '2':
-//         alert('В наличии 256 шт.');
-//         break;
-//     case '3':
-//         alert('В наличии 53 шт.');
-//         break;
-//     case '4':  
-//         alert('В наличии 3 шт.');
-//         break;
-//     default:
-//         alert('Нет в наличии');    
-// }
 
 // //task2
 // let gender = prompt('Enter your gender as F or M')
@@ -220,11 +202,27 @@
 // let operation = prompt('Enter the operation')
 // calc(num1,num2,operation)
 //task4
+// let enterNumber = prompt('Enter a number with six positions ')
 // function isLucky(enterNumber){
-//   enterNumber 
+//   let num1 = +enterNumber[0]
+//   let num2 = +enterNumber[1]
+//   let num3 = +enterNumber[2]
+//   let num4 = +enterNumber[3]
+//   let num5 = +enterNumber[4]
+//   let num6 = +enterNumber[5]
+
+//   if(enterNumber.length == 6){
+//     if( num1 + num2 + num3 == num4 + num5 + num6){
+//         console.log('The number is lucky');
+//     } else{
+//         console.log('The number is not lucky');
+//     }
+//   }
+//   else{
+//     console.log('Please write a 6 positioned number');
+//   }
 // }
-// let enterNumber = Number(prompt('Enter a number with six positions '))
-// isLucky(enterNumber) НЕ СМОГЛА СДЕЛАТЬ
+// isLucky(enterNumber)  
 
 
 
