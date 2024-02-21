@@ -258,8 +258,42 @@
 
 
 
-//presentation10
+//presentation10 while loop
+// let num = 1
+// while(num < 5){
+//     console.log(num);
+//     num ++
+// }
+//task1
+// let enterData = prompt('Enter two positioned number and step devided by comma')
+// let data = enterData.split(',')
+// while(+data[0]< 100){
+//     newData = +data[0] + Number(data[1])
+//     console.log(newData);
+// }
+// console.log('The number is not two positionied');  ERROR
+
+//for from youtube
+// for(let i = 0; i<4; i++){
+//     console.log(i);
+// }
+// console.log('');
+// const array = ['a', 'b', 'c','d', 'e', 'f']
+// for(let i = 0; i < array.length; i++){
+//     console.log(array[i]);
+// }
+// console.log('');
+// for(let i = array.length; i>0; i--){
+//     console.log(array[i-1]);
+// }
 
 
-
-
+let word = '';
+while(word.length<5){
+    const value = prompt('Enter a letter')
+        if(value.length === 0){
+            break;
+        }
+    word = word + value;
+    console.log(word);
+}
