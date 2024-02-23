@@ -43,14 +43,25 @@
 
 //task4
 // let year = prompt('Enter a random year')
-// if(year%4 == 0){
-//     if(year%100 == 0 && year%400 != 0){
-//         console.log('this year isnt high')
+// if (!isNaN(year)) {
+//   if(year>0){
+//     if(year%4 == 0){
+//         if(year%100 == 0 && year%400 != 0){
+//             console.log('this year isnt high')
+//         }
+//         console.log('this is a high year');
+//     }else{
+//         console.log('this year isnt high');
 //     }
-//     console.log('this is a high year');
+//   }else{
+//     console.log('Please enter a correct year');
+//   }
 // }else{
-//     console.log('this year isnt high');
+//     console.log('Enter a number')
 // }
+
+
+
 
 
 
@@ -265,35 +276,185 @@
 //     num ++
 // }
 //task1
-// let enterData = prompt('Enter two positioned number and step devided by comma')
-// let data = enterData.split(',')
-// while(+data[0]< 100){
-//     newData = +data[0] + Number(data[1])
-//     console.log(newData);
+// let n = +prompt('Enter a two positioned number')
+// let k = +prompt('Enter the encrease step')
+// while(n<100){
+//     console.log(n);
+//     n = n+k
 // }
-// console.log('The number is not two positionied');  ERROR
+//task2
+// let n2 = +prompt('Enter a number')
+// while(n2>0){
+//     console.log("I know how to use loops");
+//     n2--
+// }
+//task3
+// let num = 100
+// while(num<1000){
+//     console.log(num);
+//     num += 10
+// }
+//task n
+// let num = 0
+// let count = 0
+// while(num<100){
+//     num++
+//     if(num%7===0){
+//         count++
+//     }
+// } console.log(count);
+//task4
+// let num = 10
+// let sum = 0
+// while(num<100){
+//     num++
+//     if(num%2 === 1){
+//         sum = sum + num
+//     }
+// }
+// console.log(sum);
+//task5
+// let enteredNum = +prompt('Enter a number')
+// let sum = 0
+// let num = 99
+// while(num<999){
+//     num++
+//     if(num%enteredNum === 0){
+//         console.log(num);
+//         sum = sum + num
+//     }
+// }
+// console.log(sum);
+//task6 не знаю как сделать
 
-//for from youtube
+
+
+
+//presentation11 for 
+//task1
+// let multiplication = 1
+// for (let i = 1; i <10; i++){
+//     multiplication = multiplication * i
+// }
+// console.log(multiplication);
+//task n
+// const str = 'Nisa Hasratova'
+// for(let i = 0;i<str.length;i++){
+//     console.log(str[i]);
+// }
+//task2
+// let str = prompt('Enter a sentence')
+// for(let i = str.length; i > 0; i--){
+//     console.log(str[i - 1]);
+// }
+
+// let text = ('Hello. World.')
+// for(i = 0; i<text.length; i++){
+//     if(text[i] === '.'){
+//         continue
+//     }
+//     console.log(text[i]);
+// }
+
+
+
+//task3
+// let text = prompt('Enter a sentence')
+// for(let i = 0; i<text.length; i++){
+//     if(text[i] === '.'){
+//         console.log(i);
+//         break
+//     }
+// } 
+//task4
+// let text = prompt('Enter a sentence')
+// for(let i = 0; i<text.length; i++ ){
+//     if(text[i] == parseInt(text[i])){
+//         console.log('This sentence has a number');
+//     }
+// }
+
+
+
+//FOR AND WHILE FROM YOUTUBE
+//ex1
 // for(let i = 0; i<4; i++){
 //     console.log(i);
 // }
 // console.log('');
+//ex2
 // const array = ['a', 'b', 'c','d', 'e', 'f']
 // for(let i = 0; i < array.length; i++){
 //     console.log(array[i]);
 // }
 // console.log('');
+//ex3
+// const array = ['a', 'b', 'c','d', 'e', 'f']
 // for(let i = array.length; i>0; i--){
 //     console.log(array[i-1]);
 // }
+//ex4
+// let word = '';
+// while(word.length<5){
+//     const value = prompt('Enter a letter')
+//         if(value.length === 0){
+//             break;
+//         }
+//     word = word + value;
+//     console.log(word);
+// }
+//ex5 DO WHILE
+// let x = 0
+// do{
+//     console.log(x);
+//     x++
+// }while(x<=3)
+//ex6 FOR OF
+// const array = ['a', 'b', 'c','d', 'e', 'f']
+// for(let letter of array){
+//     console.log(letter);
+// }
+//task1
+// let num = 1
+// while(num<10){
+//     console.log(num);
+//     num++
+// }
+//task2
+// let num2 = +prompt('Enter a number')
+// for(let i = 1;i <=10;i++ ){
+//     if(!isNaN(num2)){
+//         let res = num2*i
+//         console.log(`${num2} * ${i} = ${res}`);
+//     }else{
+//         console.log('error');
+//     }
+// }
+//task3
+// let num = +prompt('Enter a number') // 3
+// let sum = 0
+// let i = 0
+// while(i<num){
+//     i++
+//     sum = sum + i
+// }
+// console.log(sum);
+//task4
+// let sen = prompt('Enter a sen')
+// for (let i = sen.length; i > 0; i--){
+//     console.log(sen[i-1]);
+// }
 
 
-let word = '';
-while(word.length<5){
-    const value = prompt('Enter a letter')
-        if(value.length === 0){
-            break;
-        }
-    word = word + value;
-    console.log(word);
-}
+
+// let fullName = prompt('Enter your name')
+// let fullName1 = prompt('Enter your name')
+// let fullName2 = prompt('Enter your name')
+// function yourNameIS(fullName = ' '){
+//     console.log(`${fullName} is active now`);
+// }
+// yourNameIS(fullName)
+// yourNameIS(fullName1)
+// yourNameIS(fullName2)
+
+

@@ -187,5 +187,70 @@
 // let whatIsYourGender1 = gender1.toLowerCase() == 'f' ? 'Female' :  gender1.toLowerCase() == 'm' ? 'Male' :  'please enter correct letter'
 // console.log(whatIsYourGender1);
 
+//task3
+// let year = prompt('Enter a random year')
+// if (!isNaN(year)) {
+//   if(year>0){
+//     if(year%4 == 0){
+//         if(year%100 == 0 && year%400 != 0){
+//             console.log('this year isnt high')
+//         }
+//         console.log('this is a high year');
+//     }else{
+//         console.log('this year isnt high');
+//     }
+//   }else{
+//     console.log('Please enter a correct year');
+//   }
+// }else{
+//     console.log('Enter a number')
+// }
+//classwork4 function
+//task1
+// let Fullname = prompt('Enter your name')
+// function logGreeting (){
+//     console.log(`${Fullname} is a developer`)
+// }
+// logGreeting() 
+//task2
+// let fullName = prompt('Enter your name')
+// let fullName1 = prompt('Enter your name')
+// let fullName2 = prompt('Enter your name')
+// function yourNameIS(fullName = ' '){
+//     console.log(`${fullName} is active now`);
+// }
+// yourNameIS(fullName)
+// yourNameIS(fullName1)
+// yourNameIS(fullName2)
+//homework function
+// let number1 = +prompt('Enter a number')
+// let number2 = +prompt('Enter a number')
+// let number3 = +prompt('Enter a number')
+// function maxNUm (num1,num2,num3){
+//     if(!isNaN(num1) && !isNaN(num2) && !isNaN(num3)){
+//         if(num1<num2 && num2<num3){
+//             console.log(num3)
+//         }
+//         else if(num2<num1 && num1<num3){
+//             console.log(num3)
+//         }
+//         else if(num1<num3 && num3<num2){
+//             console.log(num2)
+//         }
+//         else if(num3<num1 && num1<num2){
+//             console.log(num2)
+//         }
+//         else if(num3<num2 && num2<num1){
+//             console.log(num1)
+//         }
+//         else if(num2<num3 && num3<num1){
+//             console.log(num1)
+//         }
+//     }else{
+//          console.log('Enter a number');
+//     }
+// }
+// maxNUm(number1,number2,number3)
+
 
 
