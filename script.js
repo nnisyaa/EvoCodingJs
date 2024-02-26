@@ -254,3 +254,44 @@
 
 
 
+//classwork function return
+//task1
+// let num1 = +prompt('Enter the first number')
+// let num2 = +prompt('Enter the second number')
+// function min(num1, num2){
+//     if(!isNaN(num1) && !isNaN(num2)){
+//         if(num1<num2){
+//             return num1
+//         }else{
+//             return num2
+//         }
+//     }
+//     else{
+//         console.log('Please enter a number');
+//     }
+// }
+// console.log(min(num1,num2));
+//task2
+// function calc(num1,num2,operation){
+//     switch(operation){
+//         case '+':
+//             console.log(num1 + num2);
+//         break;
+//         case '-':
+//             console.log(num1 - num2);
+//         break;
+//         case '*':
+//             console.log(num1 * num2);
+//         break;
+//         case '/':
+//             console.log(num1 / num2);
+//         break;
+//     }
+// }
+// let num1 = +(prompt('Enter 1st number'))
+// let num2 = +(prompt('Enter 2nd number'))
+// let operation = prompt('Enter the operation')
+// calc(num1,num2,operation)
+
+
+
