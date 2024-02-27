@@ -458,3 +458,20 @@
 // yourNameIS(fullName2)
 
 
+//presentation 12 array
+//task1
+// let names = ['Nisa', 'Said', 'Elvina']
+// names[1] = 'Classified'
+// console.log(names);
+//task2
+// let array = ['Новая надежда', 'Империя наносит ответный удар', 'Возвращение джидая']
+// for(let i = 0; i < array.length; i ++){
+//     console.log(`Эпизод ${i + 4}: ${array[i]}`);
+// }
+//task3
+// let num = prompt('Enter 5 numbers')
+// let arr = num.split(',')
+// for(let i = 0; i<5; i++){
+//     if(arr[i]<arr[0]) arr[0] = arr[i]
+// }
+// console.log(arr[0]);
