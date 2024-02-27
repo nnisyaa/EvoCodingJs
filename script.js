@@ -253,4 +253,38 @@
 // maxNUm(number1,number2,number3)
 
 
+// let rublBalance = +prompt('Enter your rubl balance')
+// let dollarBalance = +prompt('Enter your dollar balance')
+// function changeDollartoRubl(dollarBalance, rublBalance){
+//    dollarBalance *= 75
+//    let fullBalance = dollarBalance + rublBalance
+//    console.log(`The full balance is ${fullBalance} rubl`); 
+// }
+// changeDollartoRubl(dollarBalance, rublBalance)
+
+
+// let enterNumber = prompt('Enter a number with six positions ')
+// function isLucky(enteredNumber){
+//   let num1 = +enteredNumber[0]
+//   let num2 = +enteredNumber[1]
+//   let num3 = +enteredNumber[2]
+//   let num4 = +enteredNumber[3]
+//   let num5 = +enteredNumber[4]
+//   let num6 = +enteredNumber[5]
+//     if(!isNaN(num1) && !isNaN(num2) && !isNaN(num3) && !isNaN(num4) && !isNaN(num5) && !isNaN(num6)){
+//         if(enteredNumber.length == 6){
+//             if( num1 + num2 + num3 == num4 + num5 + num6){
+//                 console.log('The number is lucky');
+//             } else{
+//                 console.log('The number is not lucky');
+//             }
+//           }
+//           else{
+//             console.log('Please write a 6 positioned number');
+//           }
+//     }else{
+//         console.log('Please enter a number');
+//     }
+// }
+// isLucky(enterNumber)
 
