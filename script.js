@@ -351,3 +351,61 @@
 // let enterSen = prompt('Enter a sentence');
 // console.log(capitalizeWords(enterSen)); 
 
+
+
+
+
+//casswork for 
+// //task1
+// let multiplication = 1
+// for (let i = 1; i <10; i++){
+//     multiplication = multiplication * i
+// }
+// console.log(multiplication);
+//task2
+// let str = prompt('Enter a sentence')
+// for(let i = str.length; i > 0; i--){
+//     console.log(str[i - 1]);
+// }
+//task3
+// let text = prompt('Enter a sentence')
+// for(let i = 0; i<text.length; i++){
+//     if(text[i] === '.'){
+//         console.log(i);
+//         break
+//     }
+// } 
+//task4
+//   function isPrime(num) {
+//     if (num <= 1) {
+//         return false;
+//     }
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// function printPrimesUpTo(n) {
+//     for (let i = num1; i >= 1; i--) {
+//         if (isPrime(i)) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// let num1 = parseInt(prompt("Введи число больше 1"));
+// printPrimesUpTo(num1);
+//task5
+// let sum = 0
+// function numCounter(sen1){
+    
+//     for(let i = 0; i < sen1.length; i++){
+//         sum ++ 
+//     }
+//     return sum
+// }
+// let sen = prompt('Enter a random sentence')
+// console.log(numCounter(sen));

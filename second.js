@@ -261,7 +261,7 @@
 //         console.log(true)
 //     }
 //     else{
-//         console.log(false)
+//         console.log(false)6 епымсч
 //     }
 // }
 // let telephoneNumber = prompt('Enter a telephone number')
@@ -475,3 +475,4 @@
 //     if(arr[i]<arr[0]) arr[0] = arr[i]
 // }
 // console.log(arr[0]);
+
