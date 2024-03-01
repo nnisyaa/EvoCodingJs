@@ -409,3 +409,33 @@
 // }
 // let sen = prompt('Enter a random sentence')
 // console.log(numCounter(sen));
+
+
+//classwork array
+//task1
+// let array = ['Новая надежда', 'Империя наносит ответный удар', 'Возвращение джидая']
+// for(let i = 0; i < array.length; i ++){
+//     console.log(`Эпизод ${i + 4}: ${array[i]}`);
+// }
+//task2
+// let num = prompt('Enter 5 numbers')
+// let arr = num.split(',')
+// for(let i = 0; i<5; i++){
+//     if(arr[i]<arr[0]) arr[0] = arr[i]
+// }
+// console.log(arr[0]); 
+
+// Push,unshift,shift,pop
+// join
+
+//task3
+// let names = ['Name1' , 'Name2' , 'Name3']
+// names.push('Name4')
+// names.shift()
+// console.log(names);
+//task4
+// let nums = '32,31,34,36,31'
+// let nums2 = nums.split(',')
+// let nums3 = nums2.join(';')
+// console.log(nums3);
+//task5
