@@ -476,3 +476,88 @@
 // }
 // console.log(arr[0]);
 
+
+
+//ВТОРОЙ КРУГ
+//функции 
+// function logArg(){
+//     for(let argument of arguments){
+//         console.log(argument);
+//     }
+//     console.log('stop');
+// }
+// logArg(1,2,3,4)
+
+//presentation classes
+// //task1 
+// class Person{
+//     constructor(surname,name,age,gender){
+//         this.surname = surname
+//         this.name = name
+//         this.age = age
+//         this.gender = gender
+//     }
+// }
+
+// const person1 = new Person('Hasratova', 'Nisa', 20, 'Female')
+// const person2 = new Person('Mustafayeva', 'Elvina', 21, 'Female')
+// const person3 = new Person('Huseynova', 'Fidan', 21, 'Female')
+// console.log(person1,person2,person3);
+// task2
+// class Person{
+//     constructor(name,age){
+//         this.name = name
+//         this.age = age
+//     }
+//     celebrateBirthday(){
+//         this.age++
+//     }
+// }
+// const person1 = new Person('Nisa', 20)
+// person1.celebrateBirthday()
+// console.log(person1);
+//presentation classes oop
+//task1
+// class Person{
+//     constructor(surname,name,age,gender){
+//         this.surname = surname
+//         this.name = name
+//         this.age = age
+//         this.gender = gender
+//     }
+// }
+// class Admin extends Person{
+//     constructor(surname,name,age,gender,role,id){
+//         super(surname,name,age,gender)
+//         this.role = role
+//         this.id = id
+//     }
+// }
+// class Pleyer extends Person{
+//     constructor(surname,name,age,gender,level){
+//         super(surname,name,age,gender)
+//         this.level = level
+//     }
+// }
+//task2
+// class Person{
+//     constructor(surname,name,age,gender){
+//         this.surname = surname
+//         this.name = name
+//         this.age = age
+//         this.gender = gender
+//     }
+//     rename(name){
+//         this.name = name
+//     }
+// }
+// class Admin extends Person{
+//     constructor(surname,name,age,gender,role,id){
+//         super(surname,name,age,gender)
+//         this.role = role
+//         this.id = id
+//     }
+// }
+// const admin1 = new Admin('Anney','Ann', 25,'Female', 'Designer', 21)
+// admin1.rename('Nany')
+// console.log(admin1);

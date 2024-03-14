@@ -438,4 +438,413 @@
 // let nums2 = nums.split(',')
 // let nums3 = nums2.join(';')
 // console.log(nums3);
-//task5
+
+
+
+
+//array methods
+//task1
+// let sen = ['Hello,','my','name','is','Ali']
+// function logSen(sen){
+//     let sen2 = sen.join(' ')
+//     return sen2
+// }
+// console.log(logSen(sen));
+//task2
+// let arr = [12,21,9,49,102]
+// let evenSum = 0
+// let oddSum = 0
+// function difference(arr){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] % 2 == 0){
+//             evenSum += arr[i]
+//         }
+//         else{
+//             oddSum += arr[i]
+//         }
+//     }
+//     return evenSum - oddSum
+// }
+// console.log(difference(arr));
+//task3
+// let arr = [12, 21, 7, 49, 102];
+// let max = 0;
+// function oddMax(arr) {
+//     for(let i = 0; i < arr.length; i ++){
+//         if(arr[i] % 2 == 1){
+//             for(let j = i+1; j < arr.length; j++){
+//                 if((arr[j] % 2 == 1 && arr[j] > arr[i])){
+//                     max = arr[j]
+//                 }
+//             }
+//         }
+//     }
+//   return max
+// }
+// console.log(oddMax(arr));
+//task4
+// let arr = [12, 21, 7, 102];
+// let maxOdd = 0;
+// let maxEven = 0
+// function oddMax(arr) {
+//     for(let i = 0; i < arr.length; i ++){
+//         if(arr[i] % 2 == 1){
+//             for(let j = i+1; j < arr.length; j++){
+//                 if(arr[j] % 2 == 1 && arr[j] > arr[i]){
+//                     maxOdd = arr[j]
+//                 }
+//                 else{
+//                     maxOdd = arr[i]
+//                 }
+//             }
+//         }else{
+//             for(let j = i+1; j < arr.length; j++){
+//                 if(arr[j] % 2 == 0 && arr[j] > arr[i]){
+//                     maxEven = arr[j]
+//                 }
+//             }
+//         }
+//     }
+//   return maxOdd + maxEven
+// }
+// console.log(oddMax(arr));
+
+//homework
+//task1
+// for each presentation
+// let arr = [2, 3, -2, 0, -1]
+// function callback(item){
+//     if(item<0){
+//         console.log(item);
+//     }
+// }
+// arr.forEach(callback)
+//task2
+// let arr2 = [2, 3, -2, 0, -1]
+// arr2.forEach((item)=>{
+//     if (item >0 ){
+//         console.log(item);
+//     }
+// } )
+//map,filter,find
+//task1
+// let arr = [2, 3, -2, 0, -1]
+// let Newarr = arr.map((item) =>{
+//     if(item < 0){
+//         return item * -1;
+//     }
+//     else{
+//         return item *2
+//     }
+// })
+// console.log(Newarr);
+//task2
+// let sen = ['Green' , 'Red' , 'Blue']
+// let newSen = sen.find((item )=>{
+//     if(item.length == 3){
+//         return item
+//     }
+// })
+// console.log(newSen);
+//task3
+// let names = ['Jane', 'Ann' , 'Sam' , 'Ally']
+// let nameA = names.filter((item) =>{
+//     if(item[0] == 'A'){
+//         return item
+//     }
+// })
+// console.log(nameA);
+
+
+//classwork
+// let arr = [12, 21, 9, 49, 102, 4]
+
+// let tek = 0
+// let cut = 0
+
+// for (let i = 0; i < arr.length; i++) {
+
+//     if (arr[i] % 2 != 0 && tek < arr[i]) {
+
+//         tek = arr[i]
+
+//     } else if (cut < arr[i]) {
+        
+//         cut = arr[i]
+//     }
+// }
+
+// console.log(tek);
+// console.log(cut);
+//task1
+// let arr = [12, 21, 102, 9, 49, 102, 102]
+// let max = 0
+// let count = 0
+// for(let i = 0; i < arr.length; i++){
+//     if(max < arr[i]){
+//         max = arr[i]
+//             if (max = arr[i]){
+//                 for(let j = i; j < arr.length; j++){
+//                     count +=1
+//                 }
+//             }
+//     }    
+//     }
+// console.log(`${max} повторяется ${count} раз`);
+// //task2
+// let arr1 = [5,4]
+// let arr2 = [12,46]
+// function callback(item,index) {
+//     return arr1.index + arr2.index
+// }
+
+// let arr = ['salam' , true, true, false, '45', false, 'sagol']
+// let count = 0
+// function print(){
+//     for(let i=0 ; i < arr.length; i++){
+//         if ( arr[i] == false || arr[i] == true){
+//             count += 1
+//         }
+//     }
+// }
+// console.log(print(arr));
+
+
+
+
+
+
+
+
+
+
+
+// classwork object presentation
+//task1
+// let user = {
+//     name : 'Nisa',
+//     gender : 'Female',
+//     birthday : '08.08.2003'
+// } 
+// console.log(user.birthday);
+// //task2
+// user.age = 20
+// delete user.birthday 
+// console.log(user);
+// object methods presentation
+//task1
+// let user2 = {
+//     age : 25,
+//     retired : 65,
+//     setAge(newAge){
+//         this.age += 5
+//         return this.age
+//     },
+//     getYearsBeforeRetirement(){
+//         let beforeRetire = this.retired - this.age
+//         return beforeRetire
+//     }
+// }
+// console.log(user2.setAge());
+// console.log(user2.getYearsBeforeRetirement());
+
+
+
+//classwork objects
+//task1
+// let users = [
+// {
+//     name : 'Fidan',
+//     age: 22,
+// },
+// {
+//     name : 'Fidan',
+//     age: 14,
+// },
+// {
+//     name : 'Fidan',
+//     age: 5,
+// },
+// {
+//     name : 'Fidan',
+//     age: 12,
+// },
+// {
+//     name : 'Fidan',
+//     age: 3,
+// },
+// ]
+// let users2 = []
+// for(let i = 0; i <users.length; i++){
+//     if(users[i].age > 10){
+//         console.log(users[i]);
+//         users2.push(users[i])
+//     }
+// }
+// console.log(users2);
+//task2
+// let stockItem = {
+//     id: 1,
+//     place: 'Baku',
+//     weight: 20,
+// }
+// let shopItem = {
+//     ...stockItem,
+//     price: '150azn',
+// }
+// delete shopItem.place
+// console.log(shopItem);
+//task2
+// let names = ['Nicola Tesla, 1856' , 'Alan Turning, 1912' , 'Ada Lovelace, 1815']
+
+// function sortByBirth(name) {
+//     for(let i = 0; i<names.lengthl ;i++){
+//         if(name[i].split(',')[1] < name[i +1].split(',')[1]){
+//             let year = name[i+1]
+//             name[i+1] = name[i]
+//             name[i] = year
+//         }
+//     }
+//     return name
+// }
+// console.log(sortByBirth(names));
+
+
+
+// let calc = {
+//     memory: 0,
+//     add(num){   
+//       this.memory += num;
+//     },    
+  
+//     readR(){
+//       console.log(this.memory);
+//     },
+  
+//     clean(){
+//       this.memory = 0;
+//     },
+  
+//     sum(){
+//       return this.a + this.b;
+//     },
+  
+//     sub(){
+//       return this.a - this.b;
+//     },
+  
+//     mul(){
+//       return this.a * this.b;
+//     },
+  
+//     div(){
+//         return this.a / this.b;
+//     },
+  
+//     read() {
+//       this.a = +prompt('Enter a', 0);
+//       this.b = +prompt('Enter b', 0);
+//     }
+    
+//   }
+  
+//   calc.read();
+//   alert(calc.sum());
+//   alert(calc.sub());
+//   alert(calc.mul());
+//   alert(calc.div());
+//   calc.readR();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//homework
+//task1 
+// class Person{
+//   constructor(surname,name,age,gender){
+//       this.surname = surname
+//       this.name = name
+//       this.age = age
+//       this.gender = gender
+//   }
+// }
+// const person1 = new Person('Hasratova', 'Nisa', 20, 'Female')
+// const person2 = new Person('Mustafayeva', 'Elvina', 21, 'Female')
+// const person3 = new Person('Huseynova', 'Fidan', 21, 'Female')
+// console.log(person1,person2,person3);
+// task2
+// class Person{
+//     constructor(name,age){
+//         this.name = name
+//         this.age = age
+//     }
+//     celebrateBirthday(){
+//         this.age++
+//     }
+// }
+// const person1 = new Person('Nisa', 20)
+// person1.celebrateBirthday()
+// console.log(person1);
+
+
+//task1
+// class Person{
+//     constructor(surname,name,age,gender){
+//         this.surname = surname
+//         this.name = name
+//         this.age = age
+//         this.gender = gender
+//     }
+// }
+// class Admin extends Person{
+//     constructor(surname,name,age,gender,role,id){
+//         super(surname,name,age,gender)
+//         this.role = role
+//         this.id = id
+//     }
+// }
+// class Pleyer extends Person{
+//     constructor(surname,name,age,gender,level){
+//         super(surname,name,age,gender)
+//         this.level = level
+//     }
+// }
+//task2
+// class Person{
+//   constructor(surname,name,age,gender){
+//       this.surname = surname
+//       this.name = name
+//       this.age = age
+//       this.gender = gender
+//   }
+//   rename(name){
+//       this.name = name
+//   }
+// }
+// class Admin extends Person{
+//   constructor(surname,name,age,gender,role,id){
+//       super(surname,name,age,gender)
+//       this.role = role
+//       this.id = id
+//   }
+// }
+// const admin1 = new Admin('Anney','Ann', 25,'Female', 'Designer', 21)
+// admin1.rename('Nany')
+// console.log(admin1);
