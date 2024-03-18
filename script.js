@@ -848,3 +848,29 @@
 // const admin1 = new Admin('Anney','Ann', 25,'Female', 'Designer', 21)
 // admin1.rename('Nany')
 // console.log(admin1);
+
+
+
+
+
+
+
+
+
+
+
+//DOM classwork2
+//task2
+// let list = document.querySelector("ul")
+// console.log(list.parentElement);
+// console.log(list.previousElementSibling);
+// console.log(list.children);
+// console.log(list.firstElementChild);
+//task3
+let listEls = document.querySelectorAll('li')
+for(let i = 0;i<listEls.length;i++){
+    listEls[i].classList.add('item')
+    if(!listEls[i].classList.contains('primary')){
+        listEls[i].classList.add('secondary')
+    }
+}
