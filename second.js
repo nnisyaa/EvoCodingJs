@@ -239,8 +239,8 @@
 
 //presentation9 function-practice
 //task1
-// function isEven (evenNum){
-//     if(evenNum%2 == 0){
+// function isEven (num){
+//     if(num%2 == 0){
 //         console.log(true)
 //     }
 //     else{
@@ -248,7 +248,9 @@
 //     }
 // }
 // let evenNum = Number(prompt('Enter a number'))
+// let evenNum2 = Number(prompt('Enter a number'))
 // isEven(evenNum)
+// isEven(evenNum2)
 //task2
 // function fourth(num){
 //     return num**4
@@ -266,22 +268,28 @@
 // }
 // let telephoneNumber = prompt('Enter a telephone number')
 // isValid(telephoneNumber)
-//function youtube
-// const brokenLinks = ['vk', 'youtube', 'facebook']
-// const fixLinksArray = (linkArray)=>{
-//     const correctLink = []
-//     linkArray.array.forEach(element => {
-        
-//     });
-    
-    
-
+//task4
+// let value = prompt('Enter a sentence')
+// let count = 0
+// function numCounter(){
+//     for(let i = 0;i < value.length;i++){
+//         if(!isNaN(value[i])){
+//             count ++
+//         }
+//     }
+//     return count
 // }
-
-
-
-
-
+// console.log(numCounter());
+//function youtube стрелочные 
+// function sum(a,b){
+//     return a +b
+// }
+// console.log(sum(2,3))
+// let sum2 =  (a,b) => a + b
+// console.log(sum2(2,3));
+//task
+// let count = 0
+// setInterval(()=> console.log(++count),300)
 //presentation10 while loop
 // let num = 1
 // while(num < 5){
@@ -457,9 +465,6 @@
 // for (let i = sen.length; i > 0; i--){
 //     console.log(sen[i-1]);
 // }
-
-
-
 // let fullName = prompt('Enter your name')
 // let fullName1 = prompt('Enter your name')
 // let fullName2 = prompt('Enter your name')
@@ -469,6 +474,20 @@
 // yourNameIS(fullName)
 // yourNameIS(fullName1)
 // yourNameIS(fullName2)
+//for In
+// const user = {
+//     name: 'Nisa',
+//     age: 20,
+//     isMarried: false,
+// };
+// for(let key in user){
+//     console.log(key, user[key]);
+// }
+
+
+
+
+
 
 
 //presentation 12 array
@@ -489,17 +508,40 @@
 // }
 // console.log(arr[0]);
 
+//presentation 13
+//task1
+// let classmates = ['Nisa Hasratova' , 'Elvina Mustafayeva' , 'Fidan Huseynova']
+// classmates.push('Fidan Aleskerli')
+// classmates.shift()
+// console.log(classmates);
+//task2
+// let sen = '32, 31, 34, 36, 31'
+// let arr = sen.split(',')
+// let sen2 = arr.join(';')
+// console.log(sen2);
+//task3
+// const numbers=[1, 2 ,3, 4, 5 ,6, 7, 8, 9, 10]
+// const [firstNum, secondNum, ...otherNums] = numbers
+// console.log(firstNum,secondNum,otherNums);
+//task4
+// const numbers=[1, 2 ,3, 14, 5 ,6, 7, 8, 9, 10]
+// console.log(Math.max(...numbers))
 
 
-//ВТОРОЙ КРУГ
-//функции 
-// function logArg(){
-//     for(let argument of arguments){
-//         console.log(argument);
-//     }
-//     console.log('stop');
-// }
-// logArg(1,2,3,4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //presentation classes
 // //task1 

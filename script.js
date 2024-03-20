@@ -867,10 +867,10 @@
 // console.log(list.children);
 // console.log(list.firstElementChild);
 //task3
-let listEls = document.querySelectorAll('li')
-for(let i = 0;i<listEls.length;i++){
-    listEls[i].classList.add('item')
-    if(!listEls[i].classList.contains('primary')){
-        listEls[i].classList.add('secondary')
-    }
-}
+// let listEls = document.querySelectorAll('li')
+// for(let i = 0;i<listEls.length;i++){
+//     listEls[i].classList.add('item')
+//     if(!listEls[i].classList.contains('primary')){
+//         listEls[i].classList.add('secondary')
+//     }
+// }
