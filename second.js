@@ -266,6 +266,19 @@
 // }
 // let telephoneNumber = prompt('Enter a telephone number')
 // isValid(telephoneNumber)
+//function youtube
+// const brokenLinks = ['vk', 'youtube', 'facebook']
+// const fixLinksArray = (linkArray)=>{
+//     const correctLink = []
+//     linkArray.array.forEach(element => {
+        
+//     });
+    
+    
+
+// }
+
+
 
 
 
