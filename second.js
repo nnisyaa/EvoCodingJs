@@ -552,14 +552,68 @@
 //         }
 // }
 // console.log(development);
+
+
+
+// //presentation 15 for each
+// let array = [1,2,3,4,5]
+// function callback(num,index){
+//     console.log(`index of the ${num} is ${index}`);
+// }
+// array.forEach(callback)
+//task1
+// let array = [2,3,-2,0,-1,]
+// function logNegatives(item){
+//     if(item < 0){
+//         console.log(item);
+//     }
+// }
+// array.forEach(logNegatives)
 //task2
+// array = [2,3,-2,0,-3]
+// array.forEach((item)=> {
+//     if(item > 0){
+//         console.log(item);
+//     }
+// });
+//task3
+// const names = ["Michael", "Trevor", "Franklin", "Lamar", "Jimmy"];
+// function printWithHearts(name,index){
+//     console.log(`<3<3<3<3${name}<3<3<3<3`);
+// }
+// function printWithIndex(name,index){
+//     console.log(`${index} - ${name}`);
+// }
+// function printWithDashes(name,index){
+//     console.log(`-------------`);
+//     console.log(`${name}`);
+//     console.log(`-------------`);
+// }
+// names.forEach(printWithDashes)
+// names.forEach(printWithHearts)
+// names.forEach(printWithIndex)
+//task4
+// let sen = 'fisrt-user'
+// let sen2 = sen.split('-')
+// function upper(element,index,array){
+//     array[index] = element.toUpperCase()
+//     let sen3 = sen2.join('_')
+//     console.log(sen3);
+// }
+// sen2.forEach(upper)
+//task from youtube
+// let fruits = ['apple' , 'orange']
+// function upperCase(element,index,array){
+//     console.log(array[index] = element.toUpperCase());
+    
+// }
+// fruits.forEach(upperCase)
 
 
 
 
 
-
-
+//presentation 16 map find and filter methods
 
 
 
