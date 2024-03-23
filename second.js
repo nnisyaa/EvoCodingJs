@@ -526,8 +526,33 @@
 //task4
 // const numbers=[1, 2 ,3, 14, 5 ,6, 7, 8, 9, 10]
 // console.log(Math.max(...numbers))
+//task5 НЕ СМОГЛА СДЕЛАТЬ ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
+
+//presentation 14 arrays practice
+//task1
+// let employees = [
+//     [ 'Jaylee Macy', 'marketing' ],
+//     [ 'John Smith', 'management' ],
+//     [ 'Blossom Hartley', 'design' ],
+//     [ 'Austin Carpenter', 'marketing' ],
+//     [ 'Joan Knowles', 'development' ],
+//     [ 'Sally Nunez', 'management' ],
+//     [ 'Joan Knowles', 'development' ],
+//     [ 'Lark Simon', 'marketing' ],
+//     [ 'Jane Stone', 'management' ],
+//     [ 'Courtney Olson', 'development' ],
+//   ];
+  
+// let development = []
+// for(let i = 0; i < employees.length;i++){
+//         if(employees[i][1] === 'development'){
+//             development.push(employees[i])
+//         }
+// }
+// console.log(development);
+//task2
 
 
 
