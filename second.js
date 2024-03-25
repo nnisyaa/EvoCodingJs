@@ -608,14 +608,63 @@
     
 // }
 // fruits.forEach(upperCase)
+//task5 НЕ СМОГЛА СДЕЛАТЬ ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
 
 
 
 
+ 
 
 //presentation 16 map find and filter methods
+//task
+// const arr = [1,2,3,4]
+// const newArr = arr.map((item) =>  item + 5)
+// console.log(newArr);
+//task1
+// const arr = [1,-1,2,-2,3,-3]
+// const newArr = arr.map((item)=>{
+//     if(item>0){
+//         return item*2
+//     }else{
+//         return item * -1
+//     }
+// })
+// console.log(newArr);
+//task2
+// const arr = ['first','second','Ann'];
+// const threeSymbols = arr.find((item)=> item.length == 3)
+// console.log(threeSymbols);
+//task3
+// let names = ['Sam', 'Alan', 'Bill', 'Adam', 'Anna', 'George'];
+// const firstLetterA = names.filter((item) => item[0] == 'A')
+// console.log(firstLetterA);
+//task4
+// const price = [100,20,43,13,42,4]
+// const addTax = price.map((item) => item + (item*20/100))
+// console.log(addTax);
+//task5
+// let even = 0
+// let odd = 0
+// let arr = [10,11,12,13,14,15,16]
+// let newArr = arr.map((item)=>{
+//         if(item % 2 === 0){
+//           even ++
+//         }else{
+//            odd ++ 
+//         }
+// })
+// console.log(`there are ${even} even numbers and ${odd} odd numbers in this array`);
 
 
+
+//presentation17 sort
+// let arr = [1,5,1,5,54,14,2,13,87,4,6,45,8,3,7,95,87,6,53]
+// arr.sort((a,b) => b- a)
+// console.log(arr);
+//task1
+// let names = ['Hofstadter', 'Cooper', 'Wolowitz', 'Koothrappali'];
+// names.sort((a,b) => b.localeCompare(a))
+// console.log(names);
 
 
 
