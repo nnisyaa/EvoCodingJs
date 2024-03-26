@@ -24,3 +24,10 @@ perspective 700px
     transform: scale3d(0.5 , 0.5 ,0.5) ;
     /* width: 300px; */
 }
+.shopping-list button {
+    border: none;
+    background: none;
+}
+.background{
+    background-color: cornflowerblue;
+}

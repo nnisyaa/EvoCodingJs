@@ -668,11 +668,95 @@
 
 
 
+//presentation18 objects
+//task1
+// let User = {
+//     name: 'Nisa',
+//     birthday: '08.08.2003',
+//     gender: 'Female',
+// }
+// console.log(User.birthday);
+// //task2
+// delete User.birthday
+// User.age = 20
+// console.log(User);
+// //task3
+// let  stockItem = {
+//     id:1,
+//     place:'Baku',
+//     weight:'20kg'
+// }
+// let shopItem = {...stockItem,price: '10azn'}
+// delete shopItem.place
+// console.log(shopItem);
 
 
 
-//presentation classes
-// //task1 
+//presentation19 objects methods
+//task
+// const player = {
+//     name:'John',
+//     greet(){
+//         console.log('Hello');
+//     }
+// }
+// player.greet()
+//task
+// let car = {
+//     brand : 'Toyota',
+//     year: 2003,
+//     changeYear(newYear){
+//         this.year = newYear
+//         console.log(newYear);
+//     }
+// }
+// car.changeYear(2005)
+// console.log(car);
+//task2
+// let client ={
+//     fullName: 'Nisa Hasratova',
+//     creditLimit: 1000,
+//     balance: -200,
+//     precentOfMinPayment : 20,
+//     getBalance(){
+//         if(this.balance>0){
+//             console.log(`Your balance is ${this.balance}$`);
+//         }else{
+//             console.log(`Your debt is ${this.balance * -1}$`);
+//         }
+//     },
+//     getMinPayment(){
+//         if(this.balance < 0){
+//             console.log(`Your minimal payment is ${-1 * this.balance*20/100}`);
+//         }else{
+//             console.log(`Your dont have debt `);
+//         }
+//     },
+//     withdraw(spentMoney){
+//         if(spentMoney > this.balance + this.creditLimit){
+//             console.log(`Your balance is not enough`);
+//         }else{
+//             this.balance = this.balance - spentMoney
+//             console.log(`You spent ${spentMoney}$ and your current ballance is ${this.balance}$`);
+//         }
+//     },
+//     refill(sendMoney){
+//         this.balance = this.balance + sendMoney
+//         console.log(`You got + ${sendMoney}$. Your balance is ${this.balance}$`); 
+//     },
+// }
+// client.refill(40)
+// client.withdraw(20)
+// client.getBalance()
+// client.getMinPayment()
+
+
+
+
+
+
+//presentation22 classes
+//task1 
 // class Person{
 //     constructor(surname,name,age,gender){
 //         this.surname = surname
@@ -686,7 +770,7 @@
 // const person2 = new Person('Mustafayeva', 'Elvina', 21, 'Female')
 // const person3 = new Person('Huseynova', 'Fidan', 21, 'Female')
 // console.log(person1,person2,person3);
-// task2
+//task2
 // class Person{
 //     constructor(name,age){
 //         this.name = name
@@ -699,7 +783,46 @@
 // const person1 = new Person('Nisa', 20)
 // person1.celebrateBirthday()
 // console.log(person1);
-//presentation classes oop
+//task3
+// class Person{
+//     constructor(id,name,lastname,age,balance){
+//         this.id = id,
+//         this.name = name,
+//         this.lastname = lastname,
+//         this.age  = age,
+//         this.balance = balance
+//     }
+//     str(){
+//         console.log(`ID - ${this.id}`)
+//         console.log(`Lastname - ${this.lastname}`)
+//         console.log(`Name - ${this.name}`)
+//         console.log(`Age - ${this.age}`)
+//         console.log(`balance - ${this.balance}`)   
+//     }
+// }
+// const person1 = new Person('1','Nisa', 'Hasratova', 20, 200)
+// person1.str()
+//task4
+// class Transaction{
+//     constructor(fromClient,toClient,amount, commission){
+//         this.fromClient = fromClient
+//         this.toClient = toClient
+//         this.amount = amount
+//         this. commission =  5
+//     }
+//     calculateCommision(){
+//         console.log(this.commision = this.amount * this.commission /100 ); 
+//     }
+// }
+// const transaction1 = new Transaction('Nisa', 'Fidan', 2000)
+// transaction1.calculateCommision()
+
+
+
+
+
+
+//presentation23 classes oop
 //task1
 // class Person{
 //     constructor(surname,name,age,gender){
@@ -744,3 +867,176 @@
 // const admin1 = new Admin('Anney','Ann', 25,'Female', 'Designer', 21)
 // admin1.rename('Nany')
 // console.log(admin1);
+//task3
+// class SimpleCalc{
+//     constructor(number){
+//         this.number = number
+//     }
+//     plus(number){
+//         console.log(this.number + number);
+//     }
+//     mult(number){
+//         console.log(this.number * number);
+//     }
+//     divide(number){
+//         console.log(this.number / number);
+//     }
+//     minus(number){
+//         console.log(this.number - number);
+//     }
+//     toString(){
+//         let str = this.number + ''
+//         console.log(str); 
+//     }
+// }
+// const simpleCalc = new SimpleCalc(8);
+// simpleCalc.mult(10);
+// simpleCalc.plus(2);
+// simpleCalc.minus(7);
+// simpleCalc.divide(5);
+// simpleCalc.toString();
+
+// class ProgrammerCalc extends SimpleCalc{
+//     constructor(number){
+//         super(number)
+//     }
+//     toString(){
+//         if (this.number === 0) {
+//             return '0';
+//         }
+        
+//         let binary = '';
+//         while (this.number > 0) {
+//             let remainder = this.number % 2;
+//             binary = remainder + binary;
+//             this.number = Math.floor(this.number / 2); 
+//         }
+        
+//         return binary;
+        
+//     }
+// }
+// let calc1 = new ProgrammerCalc(20)
+// calc1.divide(2)
+// calc1.plus(3)
+// console.log(calc1.toString());
+
+
+
+
+
+
+//presentation25 DOM elements
+//task1
+// const listElement = document.querySelector('li')
+// console.log(listElement);
+//task2
+// let header = document.querySelector('h1')
+// header.remove()
+// let list = document.querySelector('ul')
+// let newListElement = document.createElement('li')
+// newListElement.textContent = '«TITAN RTX»'
+// list.append(newListElement)
+//task3
+// let header = document.querySelector('h1')
+// header.textContent = 'GeForce 20 Series'
+// let primary = document.querySelector('.primary')
+// let primary2 = document.querySelector('li:last-child')
+// primary.style.backgroundColor = '#ebebeb'
+// primary2.style.backgroundColor = '#ebebeb'
+
+
+
+
+//presentation26 elements collection
+//task1
+// let elements = document.querySelectorAll('.primary')
+// elements.forEach((element)=> console.log(element))
+//task2
+// let elements = document.querySelectorAll('li')
+// elements.forEach((item)=>{
+//     item.classList.add('item')
+//     if(!item.classList.contains('primary')){
+//         item.classList.add('secondary')
+//     }
+// })
+
+
+
+
+//presentation28 Add Event Listener
+//1
+// function showALter(){
+//     alert('Hello World')
+// }
+// let button = document.querySelector('button')
+// button.addEventListener('click', showALter)
+//2
+// function changeText(event){
+//     event.target.innerText = 'clicked'
+// }
+// function changeColor(event){
+//     event.target.style.backgroundColor = 'yellow'
+// }
+// let button = document.querySelectorAll('button')
+// button.forEach((element)=>{
+//     element.addEventListener('click', changeText)
+//     element.addEventListener('click', changeColor)
+// })
+//3
+// function changeText(event){
+//     event.target.innerText = 'clicked'
+// }
+// function changeColor(event){
+//     event.target.style.backgroundColor = 'yellow'
+//     event.target.removeEventListener('click',changeColor)
+// }
+// let button = document.querySelectorAll('button')
+// button.forEach((element)=>{
+//     element.addEventListener('click',changeText)
+//     element.addEventListener('click', changeColor)
+// })
+//4
+// function changeText(event) {
+//     event.target.innerText = 'Clicked';
+//   }
+//   function changeColor(event) {
+//     event.target.style.color = 'yellow';
+//     event.target.removeEventListener('click', changeColor);
+//   }
+//   const elements = document.querySelectorAll('button');
+//   elements.forEach((element) => {  
+//     element.addEventListener('click', changeText);
+//     element.addEventListener('click', changeColor);
+//   });
+//5
+// let listEl = document.querySelector('li')
+// listEl.addEventListener('click',()=>{
+//     alert()
+// })
+//6
+// let kim = document.querySelectorAll('li')
+// kim.forEach((item)=>{
+//     item.addEventListener('click',()=>{
+//         item.classList.toggle('background')
+//     })
+// })    
+//7
+// let kim = document.querySelector('h1')
+// kim.onclick = liAlter
+// function liAlter(){
+//     kim.classList.toggle('background')
+// }
+
+
+
+
+//task1
+// function changeColor(event){
+//     event.target.style.color = 'gray'
+// }
+// let listElement = document.querySelectorAll('ul')
+// listElement.forEach((element)=>{
+//     element.addEventListener('click', changeColor)
+// })
+//task2
