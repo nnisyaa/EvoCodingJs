@@ -31,3 +31,6 @@ perspective 700px
 .background{
     background-color: cornflowerblue;
 }
+.strike {
+    text-decoration: line-through;
+}

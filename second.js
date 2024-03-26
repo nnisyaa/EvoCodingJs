@@ -1027,6 +1027,13 @@
 // function liAlter(){
 //     kim.classList.toggle('background')
 // }
+//8
+// function showConsole(){
+//     console.log('click');
+//     kim.removeEventListener('click', showConsole)
+// }
+// let kim = document.querySelector('h1')
+// kim.addEventListener('click', showConsole)
 
 
 
@@ -1039,4 +1046,20 @@
 // listElement.forEach((element)=>{
 //     element.addEventListener('click', changeColor)
 // })
+//task3
+// function press(event) {
+//     if (event.keyCode === 13) {
+//         console.log("ENTER");
+//     }
+//     document.removeEventListener('keypress',press)
+// }
+// document.addEventListener("keypress", press);
 //task2
+// let shoppingItems = document.querySelectorAll('.shopping-list li');
+// function click(event) {
+//     event.target.style.textDecoration = 'line-through';
+//     event.target.removeEventListener('click', click);
+// }
+// shoppingItems.forEach(function(item) {
+//     item.addEventListener('click', click);
+// });
