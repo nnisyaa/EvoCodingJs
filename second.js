@@ -1064,6 +1064,43 @@
 //     item.addEventListener('click', click);
 // });
 
+//9 selected-not selected
+// let btn = document.querySelectorAll('button')
+// btn.forEach((element)=>{
+//     element.addEventListener('click',(event)=>{
+//         const text = event.target.textContent
+//         if(text === 'Selected'){
+//             event.target.textContent = 'Not selected'
+//         }else{
+//             event.target.textContent = 'Selected'
+//         }
+//     })
+// })
+//10
+// let square = document.querySelector('.kub')
+// square.addEventListener('mouseover',(event)=>{
+//     event.target.style.backgroundColor = 'yellow'
+// })
+//11
+// document.addEventListener('keyup',(event)=>{
+//     console.log(event.key);
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
