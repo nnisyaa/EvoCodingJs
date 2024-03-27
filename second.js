@@ -1063,3 +1063,8 @@
 // shoppingItems.forEach(function(item) {
 //     item.addEventListener('click', click);
 // });
+
+
+
+
+

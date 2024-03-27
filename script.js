@@ -854,11 +854,6 @@
 
 
 
-
-
-
-
-
 //DOM classwork2
 //task2
 // let list = document.querySelector("ul")
@@ -874,3 +869,23 @@
 //         listEls[i].classList.add('secondary')
 //     }
 // }
+
+
+
+// events
+//1
+// let form = document.querySelector('form')
+// let inp = document.querySelector('input')
+// form.addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//    document.querySelector('p').innerHTML += inp.value.trim()
+// })
+//2
+// let form = document.querySelector('form')
+// let inp = document.querySelector('input')
+// form.addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//    console.log(inp.value.trim());
+// })
+
+ 
