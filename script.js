@@ -887,11 +887,11 @@
 //     event.preventDefault()
 //    console.log(inp.value.trim());
 // })
-
- 
+//burger menu
 let div = document.querySelector('i')
 let aside = document.querySelector('aside')
 
 div.addEventListener('click',()=>{
     aside.classList.toggle('active')
 })
+
