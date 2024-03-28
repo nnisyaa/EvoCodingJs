@@ -889,6 +889,9 @@
 // })
 
  
+let div = document.querySelector('i')
+let aside = document.querySelector('aside')
 
-
-  
+div.addEventListener('click',()=>{
+    aside.classList.toggle('active')
+})
