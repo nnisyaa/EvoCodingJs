@@ -1087,6 +1087,53 @@
 // })
 
 
+//EVENT 2.0
+//1  вывод из инпут на кансоль
+// let input = document.getElementById('name')
+// let btn = document.getElementById('button')
+// let form = document.querySelector('form')
+// form.addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//     console.log(input.value);
+// })
+//2 вывод из инпут на экран
+// let input = document.getElementById('name')
+// let btn = document.getElementById('button')
+// let form = document.querySelector('form')
+// form.addEventListener('submit',(event)=>{
+//     event.preventDefault()
+//     let div = document.createElement('div')
+//     document.body.append(div)
+//     div.innerHTML += `<p>${input.value }<\p>`
+// })
+//3 парралельный вывод из инпута на экран
+// let input = document.getElementById('name')
+// let form = document.querySelector('form')
+// input.addEventListener('input',(event)=>{
+//     let div = document.querySelector('div')
+//     div.innerHTML = event.target.value
+// })
+//4
+
+
+
+
+
+
+//CLIENT-SERVER
+//presentation1
+//task1
+const data = '{"id":371,"type":"general","joke":"Why does a chicken coop only have two doors?Because if it had four doors it would be a chicken sedan."}';
+const dataObj = JSON.parse(data)
+dataObj.id = 157
+console.log(JSON.stringify(dataObj));
+
+
+//task2
+
+
+
+ 
 
 
 
@@ -1105,3 +1152,44 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const data = 
+// '{"id":371,"type":"general","joke":"Why does a chicken coop only have two doors? Because if it had four doors it would be a chicken sedan."}';
+// const objData = JSON.parse(data)
+// objData.id = 157
+// const newData = JSON.stringify(objData)
+// console.log(data);
+// console.log(objData);
+// console.log(newData);
+
+
+ 
+// fetch('https://api.chucknorris.io/jokes/random')
+//     .then(response=>{
+//         console.log(response);
+//     })

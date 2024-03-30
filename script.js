@@ -888,10 +888,10 @@
 //    console.log(inp.value.trim());
 // })
 //burger menu
-let div = document.querySelector('i')
-let aside = document.querySelector('aside')
+// let div = document.querySelector('i')
+// let aside = document.querySelector('aside')
 
-div.addEventListener('click',()=>{
-    aside.classList.toggle('active')
-})
+// div.addEventListener('click',()=>{
+//     aside.classList.toggle('active')
+// })
 
