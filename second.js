@@ -1123,24 +1123,44 @@
 //CLIENT-SERVER
 //presentation1
 //task1
-const data = '{"id":371,"type":"general","joke":"Why does a chicken coop only have two doors?Because if it had four doors it would be a chicken sedan."}';
-const dataObj = JSON.parse(data)
-dataObj.id = 157
-console.log(JSON.stringify(dataObj));
-
-
+// const data = '{"id":371,"type":"general","joke":"Why does a chicken coop only have two doors?Because if it had four doors it would be a chicken sedan."}';
+// const dataObj = JSON.parse(data)
+// dataObj.id = 157
+// console.log(JSON.stringify(dataObj));
 //task2
+// const character1 = '{"agility": 15, "intelligence": 15, "strength": 150, "magicPower": 5500, "magicResist": 2000, "armor": true}';
+// const character2 = '{"agility": 20, "intelligence": 10, "strength": 150, "magicPower": 5000, "magicResist": 2500, "armor": true}';
+// const character1Obj = JSON.parse(character1)
+// const character2Obj = JSON.parse(character2)
+// character1Obj.agility = 35
+// character2Obj.agility = 40
+// character1Obj.intelligence = 35
+// character2Obj.intelligence = 30
+// console.log(JSON.stringify(character1Obj));
+// console.log(JSON.stringify(character2Obj));
+//presentation2
+//task1
+// fetch('https://api.chucknorris.io/jokes/random').then((response)=> console.log(response))
+//task2
+// joke.addEventListener('click',()=>{
+//     fetch('https://api.chucknorris.io/jokes/random').then((response)=> response.json())
+//     .then((data)=>{
+//         console.log(data.value);
+//     })
+// })
+//task3
 
-
-
- 
-
-
-
-
-
-
-
+const image = document.getElementById('img')
+const body = document.querySelector('body')
+fetch('https://randomuser.me/api/')
+.then((response)=> response.json())
+.then((data)=>{
+    const name = document.createElement = 'p'
+    name.innerHTML = data.results[0].name.first
+    body.appendChild.name
+    image.src =data.results[0].picture.large
+    console.log(data);
+})
 
 
 
