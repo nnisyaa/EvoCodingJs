@@ -58,7 +58,14 @@ ol{
 hr{
     color: rgb(156, 155, 155);
 }
-
+.circle{
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transition: 0.2s linear;
+    position: absolute;
+}
 
 .can{
     width: 200px;

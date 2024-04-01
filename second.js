@@ -1114,14 +1114,29 @@
 //     div.innerHTML = event.target.value
 // })
 //4
-
-
-
+// window.addEventListener('keypress',(event)=>{
+//     console.log(event.code);
+// })
+//5
+// window.addEventListener('mousemove',(event)=>{
+//     console.log(event);
+// })
+//6
+// let circle = document.querySelector('.circle')
+// window.addEventListener('mousemove',(event)=>{
+//     let width = circle.getBoundingClientRect().width /2;
+//     let height = circle.getBoundingClientRect().height/2;
+//     circle.style.left = event.clientX - width + 'px'
+//     circle.style.top = event.clientY -height + 'px' 
+// })
+//7
+// console.log(Math.round(Math.random()));
+//ТУТ Я ЕЩЁ НЕ ЗАКОНЧИЛА
 
 
 
 //CLIENT-SERVER
-//presentation1
+//presentation1 JSON
 //task1
 // const data = '{"id":371,"type":"general","joke":"Why does a chicken coop only have two doors?Because if it had four doors it would be a chicken sedan."}';
 // const dataObj = JSON.parse(data)
@@ -1138,38 +1153,60 @@
 // character2Obj.intelligence = 30
 // console.log(JSON.stringify(character1Obj));
 // console.log(JSON.stringify(character2Obj));
-//presentation2
+
+
+
+//presentation2 Fetch
+//1
+// fetch('https://api.chucknorris.io/jokes/random')
+// .then(res => res.json())
+// .then(data=>console.log(data))
+//2
+//НЕ ДОДЕЛАЛА
+// fetch('https://fakestoreapi.com/products')
+// .then(res => res.json())
+// .then(data=>{
+//     console.log(data);
+// })
 //task1
 // fetch('https://api.chucknorris.io/jokes/random').then((response)=> console.log(response))
 //task2
 // joke.addEventListener('click',()=>{
-//     fetch('https://api.chucknorris.io/jokes/random').then((response)=> response.json())
-//     .then((data)=>{
-//         console.log(data.value);
+//     fetch('https://api.chucknorris.io/jokes/random')
+//     .then(response=> response.json())
+//     .then(data=>{
+//         document.body.innerHTML = data.value
 //     })
 // })
 //task3
+//не получилось
+// const image = document.getElementById('img')
+// const body = document.querySelector('body')
+// fetch('https://randomuser.me/api/')
+// .then((response)=> response.json())
+// .then((data)=>{
+//     const name = document.createElement = 'p'
+//     name.innerHTML = data.results[0].name.first
+//     body.appendChild.name
+//     image.src =data.results[0].picture.large
+//     console.log(data);
+// })
 
-const image = document.getElementById('img')
-const body = document.querySelector('body')
-fetch('https://randomuser.me/api/')
-.then((response)=> response.json())
-.then((data)=>{
-    const name = document.createElement = 'p'
-    name.innerHTML = data.results[0].name.first
-    body.appendChild.name
-    image.src =data.results[0].picture.large
-    console.log(data);
+
+
+
+
+//presentation3 Api1
+//task1
+fetch('https://acb-api.algoritmika.org/api/transaction?from=JohnALly')
+.then(res => res.json())
+.then(data => {
+    for(let i = 0; i < data.lenght;i ++){
+        console.log(`${data[0].from}`);
+        
+    }
+    // console.log(data);
 })
-
-
-
-
-
-
-
-
-
 
 
 
