@@ -1196,21 +1196,54 @@
 
 
 
-//presentation3 Api1
+//presentation3 Api1 Get
 //task1
-fetch('https://acb-api.algoritmika.org/api/transaction?from=JohnALly')
-.then(res => res.json())
-.then(data => {
-    for(let i = 0; i < data.lenght;i ++){
-        console.log(`${data[0].from}`);
+// fetch('https://acb-api.algoritmika.org/api/transaction')
+// .then(res => res.json())
+// .then(data => {
+//     for(let i = 0; i < data.lenght;i ++){
+//         console.log(`${data[0].from}`);
         
-    }
-    // console.log(data);
-})
+//     }
+//     console.log(data);
+// })
 
 
 
-
+//presentation4 Api2 Post Put Delete
+//1
+// let from = document.getElementById('from')
+// let to = document.getElementById('to')
+// let amount = document.getElementById('amount')
+// let btn = document.getElementById('btn')
+// let form = document.querySelector('form')
+// btn.addEventListener('click',()=>{
+//     fetch('https://acb-api.algoritmika.org/api/transaction', {
+//     method: 'POST',
+//     headers: {
+//         'Content-type': 'application/json'
+//     },
+//     body: JSON.stringify({
+//         from: from.value,
+//         to: to.value,
+//         amount : amount.value
+//     })
+// });
+// })
+// fetch('https://acb-api.algoritmika.org/api/transaction')
+// .then(res => res.json())
+// .then(data => console.log(data))
+//2
+    fetch('https://acb-api.algoritmika.org/api/transaction/6271', {
+    method: 'DELETE',
+    headers: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify()
+});
+fetch('https://acb-api.algoritmika.org/api/transaction')
+.then(res => res.json())
+.then(data => console.log(data))
 
 
 
