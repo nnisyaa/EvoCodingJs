@@ -1179,34 +1179,54 @@
 //     })
 // })
 //task3
-//не получилось
 // const image = document.getElementById('img')
-// const body = document.querySelector('body')
+// const div = document.querySelector('.random-people')
 // fetch('https://randomuser.me/api/')
-// .then((response)=> response.json())
-// .then((data)=>{
-//     const name = document.createElement = 'p'
-//     name.innerHTML = data.results[0].name.first
-//     body.appendChild.name
-//     image.src =data.results[0].picture.large
+// .then(res=> res.json())
+// .then(data=> {
 //     console.log(data);
+    // const name = document.createElement('p')
+    // div.append(name)
+    // name.innerHTML += data.results[0].name.first
+//     const lastName = document.createElement('p')
+//     div.append(lastName)
+//     lastName.innerHTML += data.results[0].name.last
+//     const email = document.createElement('p')
+//     div.append(email)
+//     email.innerHTML += data.results[0].email
+//     const age = document.createElement('p')
+//     div.append(age)
+//     age.innerHTML += data.results[0].dob.age
+//     const country = document.createElement('p')
+//     div.append(country)
+//     country.innerHTML += data.results[0].location.country
+//     image.src =data.results[0].picture.large
 // })
-
-
-
-
-
+//ПОКА 4ЫЙ СДЕЛАТЬ НЕ МОГУ
 //presentation3 Api1 Get
 //task1
 // fetch('https://acb-api.algoritmika.org/api/transaction')
 // .then(res => res.json())
 // .then(data => {
-//     for(let i = 0; i < data.lenght;i ++){
-//         console.log(`${data[0].from}`);
-        
-//     }
+//     data.forEach (item =>{
+//         document.body.innerHTML += `<p>${item.from} перевёл ${item.to} платёж ${item.amount} руб.</p>`
+//     })
+// })
+//task2
+// fetch('https://acb-api.algoritmika.org/api/transaction?from=John%20Smith')
+// .then(res => res.json())
+// .then(data => {
+//     data.forEach(element => {
+//         document.body.innerHTML += `<p>${element.from} ${element.to} ${element.amount} <\p>`
+//     });
 //     console.log(data);
 // })
+//ПОКА 3ИЙ СДЕЛАТЬ НЕ МОГУ
+
+
+
+
+
 
 
 
@@ -1234,20 +1254,62 @@
 // .then(res => res.json())
 // .then(data => console.log(data))
 //2
-    fetch('https://acb-api.algoritmika.org/api/transaction/6271', {
-    method: 'DELETE',
-    headers: {
-        'Content-type': 'application/json'
-    },
-    body: JSON.stringify()
-});
-fetch('https://acb-api.algoritmika.org/api/transaction')
-.then(res => res.json())
-.then(data => console.log(data))
+//     fetch('https://acb-api.algoritmika.org/api/transaction/6271 ', {
+//     method: 'DELETE',
+//     headers: {
+//         'Content-type': 'application/json'
+//     },
+//     body: JSON.stringify()
+// });
+// fetch('https://acb-api.algoritmika.org/api/transaction')
+// .then(res => res.json())
+// .then(data => console.log(data))
+//task1
+// fetch('https://acb-api.algoritmika.org/api/transaction',{
+//     method : 'POST',
+//     headers:{
+//         'Content-type' : 'application/json'
+//     },
+//     body: JSON.stringify({
+//         from : 'Lily',
+//         to : 'Sam',
+//         amount: 250
+//     })
+// })
+//task2
+// const info = {
+//     from: 'Lily',
+//     to: 'Jane',
+//     amount: 9999
+//   }
+// fetch('https://acb-api.algoritmika.org/api/transaction/6382',{
+//     method : 'PUT',
+//     headers:{
+//         'Content-type' : 'application/json'
+//     },
+//     body: JSON.stringify(info)
+// })
+//task3
+// fetch('https://acb-api.algoritmika.org/api/transaction/6379',{
+//     method: 'DELETE'
+// })
+//task4 НЕ СМОГЛА СДЕЛАТЬ НИКАК АААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
+// const url = 'https://content.guardianapis.com/search';
+// const apiKey = 'ea33d246-f1a7-4075-88bf-66314fc62113';
+// fetch(`${url}?api-key=${apiKey}`)
+// .then(res=>res.json())
+// .then(data=>{
+//     console.log(data);
+//     const news1 = document.createElement('p')
+//     document.body.append(news1)
+//     news1.innerHTML += data.responce.status
+// })
 
 
 
 
+
+//presentation5 promise
 
 
 
